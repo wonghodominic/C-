@@ -1,0 +1,10 @@
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\bin\Debug\CS_Cafe_Magagement)Systems.exe.config
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\bin\Debug\CS_Cafe_Magagement)Systems.exe
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\bin\Debug\CS_Cafe_Magagement)Systems.pdb
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\obj\Debug\CS_Cafe_Magagement)Systems.csprojAssemblyReference.cache
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\obj\Debug\CS_Cafe_Magagement_Systems.Form1.resources
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\obj\Debug\CS_Cafe_Magagement_Systems.Properties.Resources.resources
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\obj\Debug\CS_Cafe_Magagement)Systems.csproj.GenerateResource.cache
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\obj\Debug\CS_Cafe_Magagement)Systems.csproj.CoreCompileInputs.cache
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\obj\Debug\CS_Cafe_Magagement)Systems.exe
+C:\Users\wongh\source\repos\CS_Cafe_Magagement)Systems\CS_Cafe_Magagement)Systems\obj\Debug\CS_Cafe_Magagement)Systems.pdb
