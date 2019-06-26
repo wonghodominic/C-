@@ -1,0 +1,40 @@
+<style>
+p.bar{
+  font-size: 20px;
+  position: relative;
+  left: -100px;
+}
+thin-black-border.bar{
+  border-color: yellow;
+  border-width: 5px;
+  border-style: solid;
+}
+
+ul.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gold;
+}
+
+li.bar {
+  float: right;
+}
+
+a.bar {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+head.bar  {
+  color: black;
+  background-color: beige;
+  font-style:italic;
+  font-family: cursive;
+}
+
+
+</style>

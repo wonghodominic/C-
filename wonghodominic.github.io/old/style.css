@@ -1,0 +1,106 @@
+<style>
+p{
+  font-size: 20px;
+  position: relative;
+  left: -100px;
+}
+
+.thin-black-border{
+  border-color: yellow;
+  border-width: 5px;
+  border-style: solid;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body  {
+  color: black;
+  background-color: beige;
+  font-style:italic;
+  font-family: cursive;
+}
+
+#html .rs-range-color /*, #css .rs-range-color */, #js .rs-range-color /*, #python .rs-range-color */, #java .rs-range-color {
+    background-color: #ff8d00;
+}
+
+
+.css-typing h1 {
+  border-right: .15em solid orange;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing h1:nth-child(1) {
+  width: 7.3em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+
+</style>

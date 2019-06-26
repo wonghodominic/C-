@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+
+
+<!-- header shit -->
+<head class ="bar">
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery Timelify Plugin Demo</title>
+  <link href="http://fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300,800" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+  <link rel="stylesheet" href="css/timelify.css">
+
+
+
+
+
+  <style>
+  .bar p{
+    font-size: 20px;
+    position: relative;
+    left: -100px;
+  }
+
+  .bar .thin-black-border{
+    border-color: yellow;
+    border-width: 5px;
+    border-style: solid;
+  }
+
+  .bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .bar li {
+    float: right;
+  }
+
+  .bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .bar body  {
+    color: black;
+    background-color: beige;
+    font-style:italic;
+    font-family: cursive;
+  }
+</style>
+<!--   <link rel="stylesheet" href="style2.css">
+-->  <title> Timeline</title>
+<script src="jquery-3.2.1.min.js"></script>
+<div class="bar"> <ul>
+  <li style="font-style:italic;font-family: cursive;"><a href="faqs.html">FAQs</a></li>
+  <li style="font-style:italic;font-family: cursive;"><a href="https://wonghodominic.github.io/contact.html">Contact</a></li>
+  <li style="font-style:italic;font-family: cursive;"><a href="https://wonghodominic.github.io/about-me.html">About Me</a></li>
+  <li style="font-style:italic;font-family: cursive;"><a href="portfolio.html">Portfolio</a></li>
+  <li style="font-style:italic;font-family: cursive;"><a href="timeline.html">Timeline</a></li>
+
+  <li style="float:left"><a class="active"><img src="logos.png" alt="logo" style="width:60px;height:25px;">
+  </a></li>
+</ul></div>
+</head>
+<!-- main shit -->
+<body>
+
+
+  <div class="container">
+    <div class="timeline">
+      <h2>2014</h2>
+      <ul class="timeline-items">
+        <li class="is-hidden timeline-item"> <!-- Normal block, positionned to the left -->
+          <h3>First time came to US</h3>
+          <hr>
+          <p>This is the first time I arrived Mountain View, CA. I came here for education and I went to Foothill College.</p>
+          <hr>
+          <time>August 2014</time>
+        </li>
+      </ul>
+      <ul class="timeline-items">
+        <li class="is-hidden timeline-item inverted"> <!-- Normal block, positionned to the right  -->
+          <h3>New expriences</h3>
+          <hr>
+          <p>I tried a bunch of new stuff and met a lot of cool people. I had my FIRST tacho in life.</p>
+          <p>I also enjoyed community college life really much. I took different classes and joined the college swimming team.</p>
+          <hr>
+          <time>September 2014</time>
+        </li>
+      </ul>
+      <h2>2016</h2>
+      <ul class="timeline-items">
+        <li class="is-hidden timeline-item">
+          <h3>End of Community College life</h3>
+          <hr>
+          <p>
+            Got accepted to UC Berkeley. I was just chilling hard with my friends back in the days.
+          </p>
+          <hr>
+          <time>March 2016</time>
+        </li>
+        <li class="is-hidden timeline-item inverted">
+          <h3>Begin my university education</h3>
+          <hr>
+          <p>Started my life in Berkeley, CA. Declaring my major as Economics. I found out that there are so many talented people in this world.</p>
+          <hr>
+          <time>August 2016</time>
+        </li>
+      </ul>
+
+
+      <h2>2017</h2>
+      <ul class="timeline-items">
+        <li class="is-hidden timeline-item">
+          <h3>Exploring Computer Science</h3>
+          <hr>
+          <p>Enrolled in the first CS class, aka CS61A in my life. Struggling REALLY REALLY hard. Trying my best to survive in college.</p>
+
+          <p>I then decided to make a step up and pursue my <strong>CS minor</strong></p>
+          <hr>
+          <time>Janurary 2017</time>
+        </li>
+      </ul>
+
+      <h2>2018</h2>
+      <ul class="timeline-items">
+        <li class="is-hidden timeline-item">
+          <h3>Hope that I can graduate</h3>
+          <hr>
+          <p>Managing to <strong>graduate</strong> in May.</p>
+
+          <hr>
+          <time>Janurary 2018</time>
+        </li>
+        <li class="is-hidden timeline-item">
+          <h3>Current</h3>
+          <hr>
+          <p>Enojoying my last tiny bit of time in Berkeley</p>
+          <p>Actively looking for tech related <strong>job</strong></p>
+          <hr>
+          <time>February 2018</time>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+
+
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="js/jquery.timelify.js"></script>
+  <script>
+    $('.timeline').timelify({
+      animLeft: "fadeInLeft",
+      animCenter: "fadeInUp",
+      animRight: "fadeInRight",
+      animSpeed: 600,
+      offset: 150
+    });
+  </script>
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</body>
+</html>
